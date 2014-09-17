@@ -1,0 +1,9 @@
+Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Enable-RemoteDesktop
+
+cinst fiddler4
+
+cinst console-devel
+cinst dotpeek
+cinst sysinternals
+cinst IIS-WebServerRole -source windowsfeatures
